@@ -16,7 +16,7 @@ main{
 }
 
 .card_container{
-    background-color: hsl(213, 19%, 18%);
+    background-image: linear-gradient(hsla(212, 16%, 23%, 0.832),hsl(213, 23%, 17%)) ;
     border-radius: 18px;
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@ main{
     grid-template-columns: 100%;
     grid-template-rows: 12% 10% 20% 12% 11%;
     align-content:space-around;
+    display: none;/* focus here*/
 }
 
 .star{
@@ -69,7 +70,7 @@ main{
    width: 65px;
    height: 65px;
    background-color: hsla(213, 16%, 23%, 0.84);
-   color: hsl(217, 12%, 63%);
+   color: hsl(0, 0%, 100%);
    font-family: 'Overpass', sans-serif;
    font-weight: 700;
    font-size: 20px;
@@ -79,13 +80,80 @@ main{
    border-radius: 50%;
 }
 
+.rate_number:hover{
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.rate_number b:hover{
+    color: hsl(25, 97%, 53%);
+}
+
 #btn{
    border-radius: 25px;
    font-family: 'Overpass', sans-serif;
    font-weight: 700;
+   font-size: 16px;
    text-transform: uppercase;
    letter-spacing: 2px;
    color: hsl(0, 0%, 100%);
    background-color: hsl(25, 97%, 53%);
-   border-color: hsl(25, 97%, 53%);
+   border: solid hsl(25, 97%, 53%);
+}
+
+#btn:hover{
+    background-color: hsl(0, 0%, 100%);
+   border-color: hsl(0, 0%, 100%);
+   color: hsl(25, 97%, 53%);
+}
+
+
+
+.container_thank_you_message{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thank_you_image{
+    width: 200px;
+    height: 150px;
+}
+
+.user_feedback{
+   background-color: hsla(213, 16%, 23%, 0.84);
+   color: hsl(25, 97%, 53%);
+   font-family: 'Overpass', sans-serif;
+   width: 50%;
+   height: 40px;
+   font-weight: 400;
+   font-size: 18px;
+   border-radius: 27px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 40px;
+}
+
+.thank_you_headline{
+   color: hsl(0, 0%, 100%);
+   font-family: 'Overpass', sans-serif;
+   font-size: 40px;
+   width: fit-content;
+   height: fit-content;
+   margin-bottom: -20px;
+}
+
+.appreciation_text{
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 170%;
+    text-align: center;
+    width:97%;
 }
