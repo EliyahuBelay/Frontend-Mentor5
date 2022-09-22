@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    display: grid;
+    grid-template-columns: 40%;
+    grid-template-rows: 70%;
+    justify-content: center;
+    align-content: center;
+}
+
+.card_container{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_all_content{
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.star{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(38,47,56,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.headline{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-weight:700;
+    font-size: 40px;
+}
+
+.paragraph{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
