@@ -157,3 +157,21 @@ main{
     text-align: center;
     width:97%;
 }
+
+
+
+
+/* ////////////////////////////////////////// */
+/* START HERE */
+@media only screen and (max-width:1486px){
+    .paragraph{
+        font-size: 16.5px;
+        width: 85%;
+    }
+}
+@media only screen and (max-width:1399px){
+    .paragraph{
+        width: 90%;
+    }
+}
+/* ////////////////////////////////////////// */
