@@ -23,6 +23,7 @@ main{
     align-items: center;
 }
 
+
 .container_all_content{
     width: 85%;
     height: 90%;
@@ -30,7 +31,6 @@ main{
     grid-template-columns: 100%;
     grid-template-rows: 12% 10% 20% 12% 11%;
     align-content:space-around;
-    /*display: none; focus here*/
 }
 
 .star{
@@ -117,7 +117,7 @@ main{
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    display: none;/* focus here*/
+    /* display: none; */
 }
 
 .thank_you_image{
@@ -159,6 +159,10 @@ main{
     width:97%;
 }
 
+
+.hidden{
+    display: none;
+}
 
 
 
