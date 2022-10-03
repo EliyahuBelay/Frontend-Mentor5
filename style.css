@@ -23,6 +23,7 @@ main{
     align-items: center;
 }
 
+
 .container_all_content{
     width: 85%;
     height: 90%;
@@ -30,7 +31,6 @@ main{
     grid-template-columns: 100%;
     grid-template-rows: 12% 10% 20% 12% 11%;
     align-content:space-around;
-    display: none;/* focus here*/
 }
 
 .star{
@@ -159,3 +159,24 @@ main{
 }
 
 /* .somthing somthing test */
+
+.hidden{
+    display: none;
+}
+
+
+
+/* ////////////////////////////////////////// */
+/* START HERE */
+@media only screen and (max-width:1486px){
+    .paragraph{
+        font-size: 16.5px;
+        width: 85%;
+    }
+}
+@media only screen and (max-width:1399px){
+    .paragraph{
+        width: 90%;
+    }
+}
+/* ////////////////////////////////////////// */
