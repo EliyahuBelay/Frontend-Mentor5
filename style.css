@@ -85,8 +85,8 @@ main{
     cursor: pointer;
 }
 
-.rate_number b:hover{
-    color: hsl(25, 97%, 53%);
+.rate_number:active{
+    background-color: hsl(25, 97%, 53%);
 }
 
 #btn{
@@ -158,25 +158,24 @@ main{
     width:97%;
 }
 
-/* .somthing somthing test */
-
 .hidden{
     display: none;
 }
 
 
 
-/* ////////////////////////////////////////// */
-/* START HERE */
-@media only screen and (max-width:1486px){
-    .paragraph{
-        font-size: 16.5px;
-        width: 85%;
+@media only screen and (max-width:1429px){
+    main{
+        grid-template-columns: 40%;
     }
+   .container_all_content{
+        width: 82%;
+        height: 93%;
+   }
+   .paragraph{
+    font-size: 19px;
 }
-@media only screen and (max-width:1399px){
-    .paragraph{
-        width: 90%;
-    }
+   
 }
-/* ////////////////////////////////////////// */
+/* container_all_content */
+/* paragraph */
