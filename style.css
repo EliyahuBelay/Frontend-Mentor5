@@ -216,7 +216,40 @@ main{
 }
 
 @media only screen and (max-width:1346px){
+    .container_thank_you_message {
+        width: 85%;
+    }
+} 
 
+@media only screen and (max-width:1314px){
+    .container_thank_you_message {
+        width: 87%;
+    }
+} 
+
+@media only screen and (max-width:1285px){
+    .container_thank_you_message {
+        width: 90%;
+    }
+} 
+
+@media only screen and (max-width:1241px){
+    .container_thank_you_message {
+        width: 92%;
+    }
+    .appreciation_text {
+        font-size: 17px;
+        width: 90%;
+    } 
+} 
+
+@media only screen and (max-width:1201px){
+    .container_thank_you_message {
+        width: 93%;
+    }
+    .appreciation_text {
+        width: 92%;
+    } 
 } 
 
 /* .container_thank_you_message {
@@ -234,12 +267,69 @@ main{
     main{
         grid-template-columns: 45%;
     }
+    .container_thank_you_message {
+        width: 85%;
+    }
+    .appreciation_text {
+        font-size: 17.7px;
+    } 
+}
+
+@media only screen and (max-width:1176px){
+    .appreciation_text {
+        font-size: 17.5px;
+    } 
+}
+
+@media only screen and (max-width:1163px){
+    .appreciation_text {
+        font-size: 17.3px;
+    } 
 }
 
 @media only screen and (max-width:1157px){
     main{
         grid-template-columns: 50%;
     }
+    .container_thank_you_message {
+        width: 80%;
+    }
+    .appreciation_text {
+        font-size: 18px;
+    } 
+}
+
+@media only screen and (max-width:1144px){
+    .appreciation_text {
+        font-size: 17.7px;
+    } 
+}
+
+@media only screen and (max-width:1125px){
+    .appreciation_text {
+        font-size: 17.5px;
+    } 
+}
+
+@media only screen and (max-width:1112px){
+    .appreciation_text {
+        font-size: 17.3px;
+    } 
+}
+
+@media only screen and (max-width:1099px){
+    .container_thank_you_message {
+        width: 83%;
+    }
+    .appreciation_text {
+        font-size: 17.7px;
+    } 
+}
+
+@media only screen and (max-width:1084px){
+    .thank_you_headline{
+        font-size: 31px;
+     }
 }
 
 @media only screen and (max-width:951px){
@@ -322,6 +412,11 @@ main{
         width: 85%;
     }
 }
+@media only screen and (max-width:507px){
+    .appreciation_text {
+        font-size: 17px;
+    } 
+}
 
 @media only screen and (max-width:499px){
     .container_all_content {
@@ -333,9 +428,19 @@ main{
     .container_all_content {
         width: 90%;
     }
+    .appreciation_text {
+        font-size: 16.3px;
+    } 
+    .user_feedback {
+        width:60%;
+    }
 }
 
 @media only screen and (max-width:471px){
+    .thank_you_image{
+        width: 150px;
+        height: 100px;
+    }
     .star {
         width: 57px;
         height: 57px;
@@ -349,6 +454,10 @@ main{
     .rate_number {
         width: 63px;
         height: 63px;
+    }
+    .appreciation_text{
+        width: auto;
+        font-size: 16px;
     }
 }
 
@@ -384,6 +493,9 @@ main{
         width: 57px;
         height: 57px;
     }
+    .container_thank_you_message{
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width:397px){
@@ -400,6 +512,12 @@ main{
     .rate_number {
         width: 55px;
         height: 55px;
+    }
+}
+
+@media only screen and (max-width:389px){
+    .container_thank_you_message{
+        width: 100%;
     }
 }
 
