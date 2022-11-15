@@ -75,7 +75,7 @@ btn.onclick = ()=>{
 
 ### Continued development
 
-I want to keep working more on vanilla js so I will be completely comfortable with again.
+I want to keep working more on vanilla js so I will be completely comfortable with it again.
 
 ### Useful resources
 
