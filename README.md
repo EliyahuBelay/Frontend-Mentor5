@@ -49,13 +49,14 @@ Users should be able to:
 
 I sharping my design skills & start play with vanilla javascript from scratch all over again :) . 
 
-
+CSS
 ```css
 .rate_number:hover{
     background-color: hsl(217, 12%, 63%);
     cursor: pointer;
 }
 ```
+JS
 ```js
 btn.onclick = ()=>{
     if (state == 0) {
