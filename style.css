@@ -103,8 +103,8 @@ main{
 
 #btn:hover{
     background-color: hsl(0, 0%, 100%);
-   border-color: hsl(0, 0%, 100%);
-   color: hsl(25, 97%, 53%);
+    border-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
 }
 
 
@@ -251,17 +251,6 @@ main{
         width: 92%;
     } 
 } 
-
-/* .container_thank_you_message {
-    width: 90%;
-    height: 90%;
-}
-.appreciation_text {
-    font-size: 19px;
-    font-weight: 700;
-    line-height: 155%;
-    width: 93%;
-} */
 
 @media only screen and (max-width:1189px){
     main{
